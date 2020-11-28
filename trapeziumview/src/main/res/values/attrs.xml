@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TrapeziumView">
+        <attr name="shapeColor" format="color" />
+        <attr name="edgeRadius" format="float" />
+        <attr name="slopeLength" format="float" />
+        <attr name="slopeType">
+            <enum name="topRight" value="0" />
+            <enum name="topLeft" value="1" />
+            <enum name="bottomRight" value="2" />
+            <enum name="bottomLeft" value="3" />
+            <enum name="leftTop" value="4" />
+            <enum name="leftBottom" value="5" />
+            <enum name="rightTop" value="6" />
+            <enum name="rightBottom" value="7" />
+        </attr>
+    </declare-styleable>
+</resources>

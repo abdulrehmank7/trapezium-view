@@ -1,0 +1,3 @@
+include ':trapeziumview'
+include ':app'
+rootProject.name = "Trapezium View"
