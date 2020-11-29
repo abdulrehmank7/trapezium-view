@@ -3,6 +3,7 @@
 <br>
 Easily add Trapezium view in your layout.
 
+<img src="https://github.com/blessedCode07/trapezium-view/blob/master/screens/Screenshot_20201129-120311.png" width="30%" height="30%"> <img src="https://github.com/blessedCode07/trapezium-view/blob/master/screens/Screenshot_20201129-120523.png" width="30%" height="30%"> 
 
 ## Including in your project
 
@@ -80,6 +81,21 @@ Easily can use `Trapezium-View` with different orientation.<br>
         <td>Orientation of trapezium slope (topRight, topLeft, bottomRight, bottomLeft etc.)</td>
     </tr>
     </table>
+    
+<img src="https://github.com/blessedCode07/trapezium-view/blob/master/screens/Group%203.png" width="40%" height="40%">
+
+* ### Orientation
+<img src="https://github.com/blessedCode07/trapezium-view/blob/master/screens/Group%2011.png" width="30%" height="30%"> <img src="https://github.com/blessedCode07/trapezium-view/blob/master/screens/Group%2012.png" width="30%" height="30%">
+
+
+<img src="https://github.com/blessedCode07/trapezium-view/blob/master/screens/Group%2013.png" width="30%" height="30%"> <img src="https://github.com/blessedCode07/trapezium-view/blob/master/screens/Group%2014.png" width="30%" height="30%">
+
+
+<img src="https://github.com/blessedCode07/trapezium-view/blob/master/screens/Group%2015.png" width="30%" height="30%"> <img src="https://github.com/blessedCode07/trapezium-view/blob/master/screens/Group%2016.png" width="30%" height="30%">
+
+
+<img src="https://github.com/blessedCode07/trapezium-view/blob/master/screens/Group%2017.png" width="30%" height="30%"> <img src="https://github.com/blessedCode07/trapezium-view/blob/master/screens/Group%2018.png" width="30%" height="30%">
+
 
 ## Find this library useful? :heart:
 
