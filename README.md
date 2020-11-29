@@ -3,7 +3,7 @@
 <br>
 Easily add Trapezium view in your layout.
 
-<img src="https://github.com/blessedCode07/trapezium-view/blob/master/screens/Screenshot_20201129-120311.png" width="30%" height="30%"> <img src="https://github.com/blessedCode07/trapezium-view/blob/master/screens/Screenshot_20201129-120523.png" width="30%" height="30%"> 
+<img src="https://github.com/blessedCode07/trapezium-view/blob/master/screens/Web%201280%20%E2%80%93%201.png" width="90%" height="90%">
 
 ## Including in your project
 
