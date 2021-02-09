@@ -1,9 +1,9 @@
 # Trapezium-View
-[![](https://jitpack.io/v/blessedCode07/trapezium-view.svg)](https://jitpack.io/#blessedCode07/trapezium-view)
+[![](https://jitpack.io/v/abdulrehmank7/trapezium-view.svg)](https://jitpack.io/#abdulrehmank7/trapezium-view)
 <br>
 Easily add Trapezium view in your layout.
 
-<img src="https://github.com/blessedCode07/trapezium-view/blob/master/screens/Web%201280%20%E2%80%93%201.png" width="90%" height="90%">
+<img src="https://github.com/abdulrehmank7/trapezium-view/blob/master/screens/Web%201280%20%E2%80%93%201.png" width="90%" height="90%">
 
 ## Including in your project
 
@@ -12,8 +12,9 @@ Easily add Trapezium view in your layout.
 ```gradle
 
 dependencies {
+	        
+    implementation 'com.github.abdulrehmank7:trapezium-view:1.0'
 
-    implementation 'com.github.blessedCode07:trapezium-view:1.0'
 }
 
 ```
@@ -82,19 +83,19 @@ Easily can use `Trapezium-View` with different orientation.<br>
     </tr>
     </table>
     
-<img src="https://github.com/blessedCode07/trapezium-view/blob/master/screens/Group%203.png" width="40%" height="40%">
+<img src="https://github.com/abdulrehmank7/trapezium-view/blob/master/screens/Group%203.png" width="40%" height="40%">
 
 * ### Orientation
-<img src="https://github.com/blessedCode07/trapezium-view/blob/master/screens/Group%2011.png" width="30%" height="30%"> <img src="https://github.com/blessedCode07/trapezium-view/blob/master/screens/Group%2012.png" width="30%" height="30%">
+<img src="https://github.com/abdulrehmank7/trapezium-view/blob/master/screens/Group%2011.png" width="30%" height="30%"> <img src="https://github.com/abdulrehmank7/trapezium-view/blob/master/screens/Group%2012.png" width="30%" height="30%">
 
 
-<img src="https://github.com/blessedCode07/trapezium-view/blob/master/screens/Group%2013.png" width="30%" height="30%"> <img src="https://github.com/blessedCode07/trapezium-view/blob/master/screens/Group%2014.png" width="30%" height="30%">
+<img src="https://github.com/abdulrehmank7/trapezium-view/blob/master/screens/Group%2013.png" width="30%" height="30%"> <img src="https://github.com/abdulrehmank7/trapezium-view/blob/master/screens/Group%2014.png" width="30%" height="30%">
 
 
 <img src="https://github.com/blessedCode07/trapezium-view/blob/master/screens/Group%2015.png" width="30%" height="30%"> <img src="https://github.com/blessedCode07/trapezium-view/blob/master/screens/Group%2016.png" width="30%" height="30%">
 
 
-<img src="https://github.com/blessedCode07/trapezium-view/blob/master/screens/Group%2017.png" width="30%" height="30%"> <img src="https://github.com/blessedCode07/trapezium-view/blob/master/screens/Group%2018.png" width="30%" height="30%">
+<img src="https://github.com/abdulrehmank7/trapezium-view/blob/master/screens/Group%2017.png" width="30%" height="30%"> <img src="https://github.com/abdulrehmank7/trapezium-view/blob/master/screens/Group%2018.png" width="30%" height="30%">
 
 
 ## Find this library useful? :heart:
