@@ -13,7 +13,7 @@ Easily add Trapezium view in your layout.
 
 dependencies {
 	        
-    implementation 'com.github.abdulrehmank7:trapezium-view:1.0'
+    implementation 'com.github.abdulrehmank7:trapezium-view:1.01'
 
 }
 
