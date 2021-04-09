@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/purple_700">
 
     <com.arkapp.trapeziumview.TrapeziumCustomView
         android:id="@+id/trapeziumCustomView"
@@ -15,61 +16,59 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:shapeColor="@color/teal_200"
+        app:shapeColor="@color/white"
         app:slopeLength="88"
-        app:slopeType="bottomRight">
+        app:slopeType="bottomRight"/>
 
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/userName"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_margin="16dp"
-            android:hint="Enter username"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/userName"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:hint="Enter username"
+        app:layout_constraintEnd_toEndOf="@id/trapeziumCustomView"
+        app:layout_constraintStart_toStartOf="@id/trapeziumCustomView"
+        app:layout_constraintTop_toTopOf="@id/trapeziumCustomView">
 
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/userNameEt"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/userNameEt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
 
-        </com.google.android.material.textfield.TextInputLayout>
+    </com.google.android.material.textfield.TextInputLayout>
 
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/password"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_margin="16dp"
-            android:hint="Enter password"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/userName"
-            app:passwordToggleEnabled="true">
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/password"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:hint="Enter password"
+        app:layout_constraintEnd_toEndOf="@id/trapeziumCustomView"
+        app:layout_constraintStart_toStartOf="@id/trapeziumCustomView"
+        app:layout_constraintTop_toBottomOf="@+id/userName"
+        app:passwordToggleEnabled="true">
 
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/passwordEt"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:inputType="textPassword"
-                android:maxLength="10" />
-        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/passwordEt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textPassword"
+            android:maxLength="10" />
+    </com.google.android.material.textfield.TextInputLayout>
 
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/loginBtn"
-            android:layout_width="58dp"
-            android:layout_height="68dp"
-            android:layout_gravity="end|bottom"
-            android:layout_margin="18dp"
-            app:backgroundTint="@color/white"
-            app:cornerRadius="29dp"
-            app:icon="@drawable/ic_arrow_forward"
-            app:iconTint="@color/teal_700"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
-
-    </com.arkapp.trapeziumview.TrapeziumCustomView>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/loginBtn"
+        android:layout_width="58dp"
+        android:layout_height="68dp"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="18dp"
+        app:backgroundTint="@color/white"
+        app:cornerRadius="29dp"
+        app:icon="@drawable/ic_arrow_forward"
+        app:iconTint="@color/purple_700"
+        app:layout_constraintBottom_toBottomOf="@id/trapeziumCustomView"
+        app:layout_constraintEnd_toEndOf="@id/trapeziumCustomView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
